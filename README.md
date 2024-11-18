@@ -1,4 +1,3 @@
-### study-of-basic-gates
 
 **AIM:** 
 
@@ -19,7 +18,7 @@ AND gate OR gate NOT gate NAND gate NOR gate Ex-OR gate Ex-NOR gate
 The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
 Y= A.B
 
-**OR gate** 
+**OR gate**
 
 The OR gate is an electronic circuit that gives a high output (1) if one or more of its inputs are high. A plus (+) is used to show the OR operation.
 Y= A+B
@@ -66,14 +65,35 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: D KEERTHAN
+ 
+ RegisterNumber: 24901007
+```
+module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![image](https://github.com/user-attachments/assets/c91ce564-3adf-4750-8837-52d7c1d934e0)
+
+**Output:** 
+![Experiment 1(1)](https://github.com/user-attachments/assets/6ed7c7eb-9d0b-4d2d-af73-aa76df1b5322)
+
 
 **RTL**
+![Experiment 1](https://github.com/user-attachments/assets/d4265eec-1d69-4023-b9ba-ceb386292416)
+
 
 **Result:**
-
+Studied and verified the truth table of logic gates in Quartus II using Verilog programming.
 
